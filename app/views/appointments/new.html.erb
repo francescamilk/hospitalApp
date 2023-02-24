@@ -1,0 +1,4 @@
+<%= simple_form_for [ @doctor, @appointment ] do |f| %>
+    <%= f.association :patient %>
+    <%= f.submit %>
+<% end %>
